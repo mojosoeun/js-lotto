@@ -14,7 +14,11 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+<<<<<<< HEAD
 import "./commands";
+=======
+import './commands'
+>>>>>>> eb57930 (로또 미션 step1 개발환경 설정)
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

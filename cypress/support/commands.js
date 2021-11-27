@@ -24,6 +24,9 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4521d20 (로또 미션 1단계 구현 및 관련 테스트 구현)
 Cypress.Commands.add("inputPrice", (price) => {
   cy.get('#LottoForm input[type="number"]').type(price);
   cy.get("#LottoForm form").submit();
@@ -36,5 +39,8 @@ Cypress.Commands.add("checkToggle", () => {
 Cypress.Commands.add("unCheckToggle", () => {
   cy.get(".lotto-numbers-toggle-button").uncheck({ force: true });
 });
+<<<<<<< HEAD
 =======
 >>>>>>> eb57930 (로또 미션 step1 개발환경 설정)
+=======
+>>>>>>> 4521d20 (로또 미션 1단계 구현 및 관련 테스트 구현)

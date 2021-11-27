@@ -20,7 +20,11 @@ module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
 }
 >>>>>>> eb57930 (로또 미션 step1 개발환경 설정)
+=======
+};
+>>>>>>> 4521d20 (로또 미션 1단계 구현 및 관련 테스트 구현)

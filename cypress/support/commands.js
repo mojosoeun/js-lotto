@@ -40,7 +40,27 @@ Cypress.Commands.add("unCheckToggle", () => {
   cy.get(".lotto-numbers-toggle-button").uncheck({ force: true });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eb57930 (로또 미션 step1 개발환경 설정)
 =======
 >>>>>>> 4521d20 (로또 미션 1단계 구현 및 관련 테스트 구현)
+=======
+
+Cypress.Commands.add("clickRetry", () => {
+  cy.get("#retry-btn").click();
+});
+
+Cypress.Commands.add("checkResult", () => {
+  cy.get(".open-result-modal-button").click();
+});
+
+Cypress.Commands.add("inputWinningNumbers", ({ winningNumbers = [], bonusNumber = "" }) => {
+  cy.get(".winning-number").each((el, index) => {
+    console.log("winningNumbers[index]", winningNumbers[index]);
+    cy.get(el).type(winningNumbers[index]);
+  });
+
+  cy.get(".bonus-number").type(bonusNumber);
+});
+>>>>>>> 4a90d7b ([클린코드 1기 이소은] 로또 미션 STEP 2)
